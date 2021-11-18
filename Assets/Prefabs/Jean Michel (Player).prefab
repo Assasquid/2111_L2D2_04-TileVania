@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1901011001}
   - component: {fileID: 6937233059147033165}
   - component: {fileID: 3277350830447139217}
+  - component: {fileID: 1562452930}
   m_Layer: 8
   m_Name: Jean Michel (Player)
   m_TagString: Untagged
@@ -191,3 +192,29 @@ MonoBehaviour:
   runSpeed: 7
   jumpSpeed: 23
   climbSpeed: 7
+--- !u!61 &1562452930
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5744044363047934850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 4480eb83cd9fb4a4ba220b6e244edeb4, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03, y: -0.46}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.08}
+  m_EdgeRadius: 0

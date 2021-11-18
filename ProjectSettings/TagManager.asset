@@ -56,6 +56,9 @@ TagManager:
   - name: Bouncing
     uniqueID: 2409123985
     locked: 0
+  - name: Enemies
+    uniqueID: 2194804703
+    locked: 0
   - name: Player
     uniqueID: 3529693671
     locked: 0
